@@ -1,0 +1,66 @@
+*{
+padding:0;
+margin:0;
+box-sizing:border-box;
+}
+
+@font-face{
+font-family:'lexend';
+src:url(LexendDeca-Regular.ttf);
+font-style:normal;
+font-weight:400;
+}
+
+.container{
+background:#F1F1F1;
+padding:50px 10px;
+font-family:lexend;
+}
+
+.background-1{
+background:#E39C26;
+border-radius:10px 10px 0 0;
+}
+
+.background-2{
+background:#006972;
+}
+
+.background-2 .btn{
+color:#006972;
+}
+
+.background-3{
+background:#004341;
+border-radius:0 0 10px 10px;
+}
+
+.background-3 .btn{
+color:#004341;
+}
+
+.content{
+padding:40px;
+}
+
+.content h1{
+color:#F1F1F1;
+padding-top:30px;
+text-transform:uppercase;
+}
+
+.content p{
+padding:20px 0;
+padding-bottom:30px;
+line-height:25px;
+color:hsla(0,0%,100%,0.75);
+}
+
+.content a{
+text-decoration:none;
+color:#E39C26;
+background:#F1F1F1;
+padding:10px 20px;
+border-radius:30px;
+text-align:center;
+}
